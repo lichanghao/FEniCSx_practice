@@ -1,0 +1,98 @@
+arguments: SOFC_test.py
+Current dir: /Users/lichanghao/fenics/test
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2023-07-25 16:51:44.199 (   1.592s) [main            ]             loguru.cpp:826   INFO| Logging to 'log.txt', mode: 'w', verbosity: 0
+2023-07-25 16:51:44.206 (   1.598s) [main            ]              utils.cpp:616   INFO| Compute partition of cells across ranks
+2023-07-25 16:51:44.206 (   1.598s) [main            ]         graphbuild.cpp:533   INFO| Building mesh dual graph
+2023-07-25 16:51:44.206 (   1.598s) [main            ]         graphbuild.cpp:396   INFO| Build local part of mesh dual graph
+2023-07-25 16:51:44.208 (   1.601s) [main            ]         graphbuild.cpp:89    INFO| Build nonlocal part of mesh dual graph
+2023-07-25 16:51:44.208 (   1.601s) [main            ]         graphbuild.cpp:545   INFO| Graph edges (local: 14800, non-local: 0)
+2023-07-25 16:51:44.209 (   1.601s) [main            ]       partitioners.cpp:523   INFO| Compute graph partition using ParMETIS
+2023-07-25 16:51:44.209 (   1.602s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 1
+2023-07-25 16:51:44.211 (   1.604s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 1
+2023-07-25 16:51:44.214 (   1.606s) [main            ]         graphbuild.cpp:396   INFO| Build local part of mesh dual graph
+2023-07-25 16:51:44.216 (   1.608s) [main            ]           ordering.cpp:203   INFO| GPS pseudo-diameter:(198) 4901-98
+
+2023-07-25 16:51:44.217 (   1.609s) [main            ]           Topology.cpp:889   INFO| Create topology
+2023-07-25 16:51:44.217 (   1.609s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 1
+2023-07-25 16:51:44.217 (   1.610s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 1
+2023-07-25 16:51:44.218 (   1.610s) [main            ]          partition.cpp:233   INFO| Compute ghost indices
+2023-07-25 16:51:44.218 (   1.610s) [main            ]                MPI.cpp:98    INFO| Computing communication graph edges (using PCX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.218 (   1.610s) [main            ]                MPI.cpp:155   INFO| Finished graph edge discovery using PCX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.218 (   1.611s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.218 (   1.611s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.219 (   1.612s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.219 (   1.612s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.219 (   1.612s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.219 (   1.612s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.220 (   1.612s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.220 (   1.612s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.220 (   1.613s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.220 (   1.613s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                  MPI.h:375   INFO| Number of neighbourhood source ranks in distribute_to_postoffice: 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.221 (   1.613s) [main            ]                  MPI.h:514   INFO| Neighbourhood destination ranks from post office in distribute_data (rank, num dests, num dests/mpi_size): 0, 0, 0
+2023-07-25 16:51:44.231 (   1.623s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.231 (   1.623s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.231 (   1.623s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.231 (   1.623s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.231 (   1.623s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.231 (   1.623s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.235 (   1.627s) [main            ]topologycomputation.cpp:739   INFO| Computing mesh entities of dimension 1
+2023-07-25 16:51:44.236 (   1.628s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.236 (   1.628s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.237 (   1.630s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.237 (   1.630s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:643   INFO| Computing mesh connectivity 1 - 2 from transpose.
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 0
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 1
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 0 - 2
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:643   INFO| Computing mesh connectivity 0 - 2 from transpose.
+2023-07-25 16:51:44.238 (   1.630s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 2 - 0
+2023-07-25 16:51:44.239 (   1.631s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.240 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.240 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 0
+2023-07-25 16:51:44.240 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 1
+2023-07-25 16:51:44.240 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 0 - 2
+2023-07-25 16:51:44.240 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 2 - 0
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 0
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 1
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 0 - 2
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 2 - 0
+2023-07-25 16:51:44.241 (   1.633s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.242 (   1.634s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.242 (   1.634s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 0
+2023-07-25 16:51:44.242 (   1.634s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 1
+2023-07-25 16:51:44.242 (   1.634s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 0 - 2
+2023-07-25 16:51:44.242 (   1.634s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 2 - 0
+2023-07-25 16:51:44.242 (   1.634s) [main            ]topologycomputation.cpp:780   INFO| Requesting connectivity 1 - 2
+2023-07-25 16:51:44.277 (   1.669s) [main            ]    SparsityPattern.cpp:389   INFO| Column ghost size increased from 0 to 0
+
+2023-07-25 16:51:44.340 (   1.732s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.473 (   1.866s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.523 (   1.915s) [main            ]       NewtonSolver.cpp:36    INFO| Newton iteration 2: r (abs) = 7.74468 (tol = 1e-10) r (rel) = 0.132226(tol = 1e-07)
+2023-07-25 16:51:44.561 (   1.953s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.612 (   2.004s) [main            ]       NewtonSolver.cpp:36    INFO| Newton iteration 3: r (abs) = 6.75442 (tol = 1e-10) r (rel) = 0.115319(tol = 1e-07)
+2023-07-25 16:51:44.653 (   2.045s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.704 (   2.096s) [main            ]       NewtonSolver.cpp:36    INFO| Newton iteration 4: r (abs) = 4.69152 (tol = 1e-10) r (rel) = 0.0800987(tol = 1e-07)
+2023-07-25 16:51:44.742 (   2.134s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.792 (   2.184s) [main            ]       NewtonSolver.cpp:36    INFO| Newton iteration 5: r (abs) = 0.576063 (tol = 1e-10) r (rel) = 0.00983517(tol = 1e-07)
+2023-07-25 16:51:44.831 (   2.223s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.881 (   2.273s) [main            ]       NewtonSolver.cpp:36    INFO| Newton iteration 6: r (abs) = 0.00357493 (tol = 1e-10) r (rel) = 6.10351e-05(tol = 1e-07)
+2023-07-25 16:51:44.919 (   2.311s) [main            ]              petsc.cpp:675   INFO| PETSc Krylov solver starting to solve system.
+2023-07-25 16:51:44.969 (   2.361s) [main            ]       NewtonSolver.cpp:36    INFO| Newton iteration 7: r (abs) = 1.24215e-07 (tol = 1e-10) r (rel) = 2.12074e-09(tol = 1e-07)
+2023-07-25 16:51:44.969 (   2.361s) [main            ]       NewtonSolver.cpp:255   INFO| Newton solver finished in 7 iterations and 7 linear solver iterations.
+2023-07-25 16:51:44.987 (   2.380s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.987 (   2.380s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:51:44.987 (   2.380s) [main            ]                MPI.cpp:165   INFO| Computing communication graph edges (using NBX algorithm). Number of input edges: 0
+2023-07-25 16:51:44.987 (   2.380s) [main            ]                MPI.cpp:236   INFO| Finished graph edge discovery using NBX algorithm. Number of discovered edges 0
+2023-07-25 16:59:21.747 ( 459.134s) [main            ]             loguru.cpp:526   INFO| atexit
